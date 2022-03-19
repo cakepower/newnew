@@ -5,7 +5,8 @@
     "dependencies": {
         "core": "*",
         "microphone": "*",
-        "microbit-pxt-blehid": "github:bsiever/microbit-pxt-blehid#v0.0.21"
+        "microbit-pxt-blehid": "github:bsiever/microbit-pxt-blehid#v0.0.21",
+        "keypad": "github:lioujj/pxt-keypad#febb778e65a5035beadfde2424f02a110d1460c4"
     },
     "files": [
         "main.blocks",

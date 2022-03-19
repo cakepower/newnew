@@ -1,19 +1,19 @@
-input.onPinPressed(TouchPin.P0, function () {
-    keyboard.sendString(keyboard.keys(keyboard._Key.left))
-})
 input.onButtonPressed(Button.A, function () {
     keyboard.sendString(keyboard.keys(keyboard._Key.left))
-})
-input.onPinPressed(TouchPin.P2, function () {
-    keyboard.sendString(keyboard.keys(keyboard._Key.up))
 })
 input.onButtonPressed(Button.B, function () {
     keyboard.sendString(keyboard.keys(keyboard._Key.right))
 })
-input.onPinPressed(TouchPin.P1, function () {
-    keyboard.sendString(keyboard.keys(keyboard._Key.right))
-})
 keyboard.startKeyboardService()
+keypad.setKeyPad3(
+DigitalPin.P3,
+DigitalPin.P4,
+DigitalPin.P5,
+DigitalPin.P6,
+DigitalPin.P7,
+DigitalPin.P14,
+DigitalPin.P15
+)
 basic.forever(function () {
 	
 })
