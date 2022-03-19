@@ -1,8 +1,13 @@
 input.onButtonPressed(Button.A, function () {
     keyboard.sendString(keyboard.keys(keyboard._Key.left))
+    keyboard.sendString("A")
+})
+input.onButtonPressed(Button.AB, function () {
+    keyboard.sendString(keyboard.keys(keyboard._Key.enter))
 })
 input.onButtonPressed(Button.B, function () {
     keyboard.sendString(keyboard.keys(keyboard._Key.right))
+    keyboard.sendString("B")
 })
 keyboard.startKeyboardService()
 keypad.setKeyPad3(
