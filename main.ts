@@ -1,3 +1,9 @@
+input.onGesture(Gesture.TiltRight, function () {
+    keyboard.sendString(keyboard.keys(keyboard._Key.vol_up))
+})
+input.onGesture(Gesture.TiltLeft, function () {
+    keyboard.sendString(keyboard.keys(keyboard._Key.vol_down))
+})
 input.onGesture(Gesture.ScreenUp, function () {
     keyboard.sendString(keyboard.keys(keyboard._Key.escape))
 })
