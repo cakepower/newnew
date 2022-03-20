@@ -1,6 +1,3 @@
-input.onLogoEvent(TouchButtonEvent.Pressed, function () {
-    keyboard.sendString(keyboard.keys(keyboard._Key.down))
-})
 input.onGesture(Gesture.ScreenUp, function () {
     keyboard.sendString(keyboard.keys(keyboard._Key.escape))
 })
@@ -9,6 +6,9 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onGesture(Gesture.ScreenDown, function () {
     keyboard.sendString(keyboard.keys(keyboard._Key.delete))
+})
+input.onLogoEvent(TouchButtonEvent.Released, function () {
+    keyboard.sendString(keyboard.keys(keyboard._Key.tab))
 })
 input.onButtonPressed(Button.AB, function () {
     keyboard.sendString(keyboard.keys(keyboard._Key.enter))
