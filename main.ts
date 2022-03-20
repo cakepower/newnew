@@ -1,14 +1,14 @@
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
-    keyboard.sendString(keyboard.keys(keyboard._Key.up))
+    keyboard.sendString(keyboard.keys(keyboard._Key.down))
 })
 input.onGesture(Gesture.ScreenUp, function () {
-    keyboard.sendString(keyboard.keys(keyboard._Key.vol_up))
+    keyboard.sendString(keyboard.keys(keyboard._Key.escape))
 })
 input.onButtonPressed(Button.A, function () {
     keyboard.sendString(keyboard.keys(keyboard._Key.left))
 })
 input.onGesture(Gesture.ScreenDown, function () {
-    keyboard.sendString(keyboard.keys(keyboard._Key.vol_down))
+    keyboard.sendString(keyboard.keys(keyboard._Key.delete))
 })
 input.onButtonPressed(Button.AB, function () {
     keyboard.sendString(keyboard.keys(keyboard._Key.enter))
