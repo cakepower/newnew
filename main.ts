@@ -1,13 +1,20 @@
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    keyboard.sendString(keyboard.keys(keyboard._Key.up))
+})
+input.onGesture(Gesture.ScreenUp, function () {
+    keyboard.sendString(keyboard.keys(keyboard._Key.vol_up))
+})
 input.onButtonPressed(Button.A, function () {
     keyboard.sendString(keyboard.keys(keyboard._Key.left))
-    keyboard.sendString("A")
+})
+input.onGesture(Gesture.ScreenDown, function () {
+    keyboard.sendString(keyboard.keys(keyboard._Key.vol_down))
 })
 input.onButtonPressed(Button.AB, function () {
     keyboard.sendString(keyboard.keys(keyboard._Key.enter))
 })
 input.onButtonPressed(Button.B, function () {
     keyboard.sendString(keyboard.keys(keyboard._Key.right))
-    keyboard.sendString("B")
 })
 keyboard.startKeyboardService()
 keypad.setKeyPad3(
