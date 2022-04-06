@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_pin_event" id="]7)CHqpvwTl#EV(nAKh6" x="-474" y="-317"><field name="name">TouchPin.P0</field><statement name="HANDLER"><block type="send string" id="hx/Bt]gA%vh?BMI?Z,^9"><value name="keys"><shadow type="text"><field name="TEXT">dltmdtn0701!</field></shadow><block type="key_conv" id="cdBjStp;b@hf~}w*nn3O"><field name="key">keyboard._Key.enter</field></block></value><next><block type="device_show_leds" id="KZYOKP7dyR}6F*yw@]Rm"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_pin_event" id="]7)CHqpvwTl#EV(nAKh6" x="-285" y="6"><field name="name">TouchPin.P0</field><statement name="HANDLER"><block type="send string" id="hx/Bt]gA%vh?BMI?Z,^9"><value name="keys"><shadow type="text"><field name="TEXT">dltmdtn0701!</field></shadow><block type="key_conv" id="cdBjStp;b@hf~}w*nn3O"><field name="key">keyboard._Key.up</field></block></value><next><block type="device_show_leds" id="KZYOKP7dyR}6F*yw@]Rm"><field name="LEDS">`
         . . # . . 
         . # # # . 
         # . # . # 
@@ -10,7 +10,19 @@
         . . . . . 
         . . . . . 
         . . . . .
-        `</field></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="_U,tc((UONim`%-q_6*$" x="412" y="-194"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="send string" id="BK`VJFd#GS}6VwLxs`fv"><value name="keys"><shadow type="text"><field name="TEXT">dltmdtn0701!</field></shadow><block type="key_conv" id="g[8Udk-,G_%kE,A`7*Mg"><field name="key">keyboard._Key.left</field></block></value><next><block type="device_show_leds" id="@]T+D:0utOc`d)9866h?"><field name="LEDS">`
+        `</field></block></next></block></next></block></next></block></statement></block><block type="device_pin_event" id="a?37/Ob?5,!KdKoV*VXY" x="0" y="0"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="send string" id="B21y8{zml2`eWpvQoBjl"><value name="keys"><shadow type="text"><field name="TEXT">dltmdtn0701!</field></shadow><block type="key_conv" id="n%X]M2B$DOl6m|o#HXVS"><field name="key">keyboard._Key.enter</field></block></value><next><block type="device_show_leds" id="yp?RFz{(jMZFQ[]IFAsF"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="device_pause" id="dKKw,o5cCIK{%(J-zPLy"><value name="pause"><shadow type="timePicker" id="*#|.@k=5y!_)T/2A:xrx"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="g,,%F^iD|j^X7-^ZfRvb"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="_U,tc((UONim`%-q_6*$" x="283" y="13"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="send string" id="BK`VJFd#GS}6VwLxs`fv"><value name="keys"><shadow type="text"><field name="TEXT">dltmdtn0701!</field></shadow><block type="key_conv" id="g[8Udk-,G_%kE,A`7*Mg"><field name="key">keyboard._Key.left</field></block></value><next><block type="device_show_leds" id="@]T+D:0utOc`d)9866h?"><field name="LEDS">`
         . . # . . 
         . # . . . 
         # # # # # 
@@ -22,7 +34,7 @@
         . . . . . 
         . . . . . 
         . . . . .
-        `</field></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="$N=2{Y{hswacXQ*|@o_," x="640" y="-192"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="send string" id=",C^a#,{_TUoGwZ[XbI^c"><value name="keys"><shadow type="text"><field name="TEXT">A</field></shadow><block type="key_conv" id="4~?gqCzTU5i}T}l|eko%"><field name="key">keyboard._Key.right</field></block></value><next><block type="device_show_leds" id="!mBiO#]GC!2J/NfeONf}"><field name="LEDS">`
+        `</field></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="$N=2{Y{hswacXQ*|@o_," x="547" y="1"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="send string" id=",C^a#,{_TUoGwZ[XbI^c"><value name="keys"><shadow type="text"><field name="TEXT">A</field></shadow><block type="key_conv" id="4~?gqCzTU5i}T}l|eko%"><field name="key">keyboard._Key.right</field></block></value><next><block type="device_show_leds" id="!mBiO#]GC!2J/NfeONf}"><field name="LEDS">`
         . . # . . 
         . . . # . 
         # # # # # 
@@ -34,4 +46,16 @@
         . . . . . 
         . . . . . 
         . . . . .
-        `</field></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="|+oRfnly=?{hu$^wz;UW" x="1285" y="-191"><field name="NAME">Button.AB</field></block><block type="pxt-on-start" id="*?2K$F[]//J4Aq4eQ:UX" x="0" y="0"><statement name="HANDLER"><block type="keyboard service" id="3l`r+6-LG]PU{}sw.oB]"/></statement></block><block type="input_logo_event" id="%O;m7AQ?kk4,PnmF%Ci+" x="943" y="46"><field name="action">TouchButtonEvent.Released</field><statement name="HANDLER"><block type="send string" id="{Z5H.uR2P!zpW?u8!,rG"><value name="keys"><shadow type="text"><field name="TEXT">A</field></shadow><block type="key_conv" id="KPNm!uJYZjogM$X|s8;+"><field name="key">keyboard._Key.tab</field></block></value></block></statement></block><block type="device_gesture_event" id=":7*mxDfVmG-]:@pZL(%g" x="945" y="185"><field name="NAME">Gesture.ScreenDown</field><statement name="HANDLER"><block type="send string" id="`m2ru!*9T@7$_Hno{bhq"><value name="keys"><shadow type="text"><field name="TEXT">A</field></shadow><block type="key_conv" id="DPb/=d8Xvq#y4X(6,hPv"><field name="key">keyboard._Key.delete</field></block></value></block></statement></block><block type="device_gesture_event" id="KBbYlk^Xe%fj-r6,u=jw" x="948" y="323"><field name="NAME">Gesture.ScreenUp</field><statement name="HANDLER"><block type="send string" id="uv)#x#M$;,%oVK5rwNww"><value name="keys"><shadow type="text"><field name="TEXT">A</field></shadow><block type="key_conv" id="jVH{/@.bRg}9a3`Gk/kS"><field name="key">keyboard._Key.escape</field></block></value></block></statement></block><block type="device_gesture_event" id="M8SlF{?GsgnqB:d9i`=2" x="293" y="476"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="send string" id="jN/oIJ12#$:|xWm:?IbJ"><value name="keys"><shadow type="text"><field name="TEXT">A</field></shadow><block type="key_conv" id="b4*uv{/~vxzvAZE[C4gH"><field name="key">keyboard._Key.vol_down</field></block></value></block></statement></block><block type="device_gesture_event" id="gRq2+w3k.45U,~vs[^vg" x="950" y="465"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="send string" id="ttARc0pTB?n.Eq%d@y3k"><value name="keys"><shadow type="text"><field name="TEXT">A</field></shadow><block type="key_conv" id=",pk1$b0^;,atM0OO6]I="><field name="key">keyboard._Key.vol_up</field></block></value></block></statement></block></xml>
+        `</field></block></next></block></next></block></next></block></statement></block><block type="device_pin_event" id="_p:X}Sp({$8/v(sRSZ6h" x="819" y="8"><field name="name">TouchPin.P2</field><statement name="HANDLER"><block type="send string" id="UJ%xdSYSp9tkQUT9C]^("><value name="keys"><shadow type="text"><field name="TEXT">dltmdtn0701!</field></shadow><block type="key_conv" id="ccE6[o7N46mQ3,2^NYY0"><field name="key">keyboard._Key.escape</field></block></value><next><block type="device_show_leds" id="DOU/F!8/18_|]}il7^N-"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_pause" id="kBs?E(:bSMG*w^3/PNTH"><value name="pause"><shadow type="timePicker" id="2#Qbol|e^?vJ##}D4`V:"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="N/}wH7WN1s_(7yJu`M:^"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="*?2K$F[]//J4Aq4eQ:UX" x="-584" y="94"><statement name="HANDLER"><block type="keyboard service" id="3l`r+6-LG]PU{}sw.oB]"/></statement></block></xml>
