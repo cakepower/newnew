@@ -35,7 +35,7 @@ input.onButtonPressed(Button.A, function () {
         `)
 })
 input.onPinPressed(TouchPin.P2, function () {
-    keyboard.sendString(keyboard.keys(keyboard._Key.escape))
+    keyboard.sendString(keyboard.keys(keyboard._Key.down))
     basic.showLeds(`
         . . # . .
         . . # . .

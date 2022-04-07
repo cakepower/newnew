@@ -1,16 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_pin_event" id="]7)CHqpvwTl#EV(nAKh6" x="-285" y="6"><field name="name">TouchPin.P0</field><statement name="HANDLER"><block type="send string" id="hx/Bt]gA%vh?BMI?Z,^9"><value name="keys"><shadow type="text"><field name="TEXT">dltmdtn0701!</field></shadow><block type="key_conv" id="cdBjStp;b@hf~}w*nn3O"><field name="key">keyboard._Key.up</field></block></value><next><block type="device_show_leds" id="KZYOKP7dyR}6F*yw@]Rm"><field name="LEDS">`
-        . . # . . 
-        . # # # . 
-        # . # . # 
-        . . # . . 
-        . . # . .
-        `</field><next><block type="device_pause" id=")92|^g.Z*YEZznFBYuyn"><value name="pause"><shadow type="timePicker" id="{Ws`_w}oFM$G^^K*m`Zt"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="#+1Jn716?h?QOq3tPW.="><field name="LEDS">`
-        . . . . . 
-        . . . . . 
-        . . . . . 
-        . . . . . 
-        . . . . .
-        `</field></block></next></block></next></block></next></block></statement></block><block type="device_pin_event" id="a?37/Ob?5,!KdKoV*VXY" x="0" y="0"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="send string" id="B21y8{zml2`eWpvQoBjl"><value name="keys"><shadow type="text"><field name="TEXT">dltmdtn0701!</field></shadow><block type="key_conv" id="n%X]M2B$DOl6m|o#HXVS"><field name="key">keyboard._Key.enter</field></block></value><next><block type="device_show_leds" id="yp?RFz{(jMZFQ[]IFAsF"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="*?2K$F[]//J4Aq4eQ:UX" x="-584" y="94"><statement name="HANDLER"><block type="keyboard service" id="3l`r+6-LG]PU{}sw.oB]"/></statement></block><block type="device_pin_event" id="a?37/Ob?5,!KdKoV*VXY" x="64" y="118"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="send string" id="B21y8{zml2`eWpvQoBjl"><value name="keys"><shadow type="text"><field name="TEXT">dltmdtn0701!</field></shadow><block type="key_conv" id="n%X]M2B$DOl6m|o#HXVS"><field name="key">keyboard._Key.enter</field></block></value><next><block type="device_show_leds" id="yp?RFz{(jMZFQ[]IFAsF"><field name="LEDS">`
         . . # . . 
         . # . # . 
         # . . . # 
@@ -22,19 +10,7 @@
         . . . . . 
         . . . . . 
         . . . . .
-        `</field></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="_U,tc((UONim`%-q_6*$" x="283" y="13"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="send string" id="BK`VJFd#GS}6VwLxs`fv"><value name="keys"><shadow type="text"><field name="TEXT">dltmdtn0701!</field></shadow><block type="key_conv" id="g[8Udk-,G_%kE,A`7*Mg"><field name="key">keyboard._Key.left</field></block></value><next><block type="device_show_leds" id="@]T+D:0utOc`d)9866h?"><field name="LEDS">`
-        . . # . . 
-        . # . . . 
-        # # # # # 
-        . # . . . 
-        . . # . .
-        `</field><next><block type="device_pause" id="F)65t$KEtkD-km_8LT2M"><value name="pause"><shadow type="timePicker" id="xyVv$}+`=I~L_;1$j!}e"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="Ytz3`5`V~i@^7.RN]Bs$"><field name="LEDS">`
-        . . . . . 
-        . . . . . 
-        . . . . . 
-        . . . . . 
-        . . . . .
-        `</field></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="$N=2{Y{hswacXQ*|@o_," x="547" y="1"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="send string" id=",C^a#,{_TUoGwZ[XbI^c"><value name="keys"><shadow type="text"><field name="TEXT">A</field></shadow><block type="key_conv" id="4~?gqCzTU5i}T}l|eko%"><field name="key">keyboard._Key.right</field></block></value><next><block type="device_show_leds" id="!mBiO#]GC!2J/NfeONf}"><field name="LEDS">`
+        `</field></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="$N=2{Y{hswacXQ*|@o_," x="605" y="96"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="send string" id=",C^a#,{_TUoGwZ[XbI^c"><value name="keys"><shadow type="text"><field name="TEXT">A</field></shadow><block type="key_conv" id="4~?gqCzTU5i}T}l|eko%"><field name="key">keyboard._Key.right</field></block></value><next><block type="device_show_leds" id="!mBiO#]GC!2J/NfeONf}"><field name="LEDS">`
         . . # . . 
         . . . # . 
         # # # # # 
@@ -46,7 +22,31 @@
         . . . . . 
         . . . . . 
         . . . . .
-        `</field></block></next></block></next></block></next></block></statement></block><block type="device_pin_event" id="_p:X}Sp({$8/v(sRSZ6h" x="819" y="8"><field name="name">TouchPin.P2</field><statement name="HANDLER"><block type="send string" id="UJ%xdSYSp9tkQUT9C]^("><value name="keys"><shadow type="text"><field name="TEXT">dltmdtn0701!</field></shadow><block type="key_conv" id="ccE6[o7N46mQ3,2^NYY0"><field name="key">keyboard._Key.escape</field></block></value><next><block type="device_show_leds" id="DOU/F!8/18_|]}il7^N-"><field name="LEDS">`
+        `</field></block></next></block></next></block></next></block></statement></block><block type="device_pin_event" id="]7)CHqpvwTl#EV(nAKh6" x="1088" y="72"><field name="name">TouchPin.P0</field><statement name="HANDLER"><block type="send string" id="hx/Bt]gA%vh?BMI?Z,^9"><value name="keys"><shadow type="text"><field name="TEXT">dltmdtn0701!</field></shadow><block type="key_conv" id="cdBjStp;b@hf~}w*nn3O"><field name="key">keyboard._Key.up</field></block></value><next><block type="device_show_leds" id="KZYOKP7dyR}6F*yw@]Rm"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_pause" id=")92|^g.Z*YEZznFBYuyn"><value name="pause"><shadow type="timePicker" id="{Ws`_w}oFM$G^^K*m`Zt"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="#+1Jn716?h?QOq3tPW.="><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="_U,tc((UONim`%-q_6*$" x="304" y="136"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="send string" id="BK`VJFd#GS}6VwLxs`fv"><value name="keys"><shadow type="text"><field name="TEXT">dltmdtn0701!</field></shadow><block type="key_conv" id="g[8Udk-,G_%kE,A`7*Mg"><field name="key">keyboard._Key.left</field></block></value><next><block type="device_show_leds" id="@]T+D:0utOc`d)9866h?"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="F)65t$KEtkD-km_8LT2M"><value name="pause"><shadow type="timePicker" id="xyVv$}+`=I~L_;1$j!}e"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="Ytz3`5`V~i@^7.RN]Bs$"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></statement></block><block type="device_pin_event" id="_p:X}Sp({$8/v(sRSZ6h" x="848" y="117"><field name="name">TouchPin.P2</field><statement name="HANDLER"><block type="send string" id="UJ%xdSYSp9tkQUT9C]^("><value name="keys"><shadow type="text"><field name="TEXT">dltmdtn0701!</field></shadow><block type="key_conv" id="ccE6[o7N46mQ3,2^NYY0"><field name="key">keyboard._Key.down</field></block></value><next><block type="device_show_leds" id="DOU/F!8/18_|]}il7^N-"><field name="LEDS">`
         . . # . . 
         . . # . . 
         # . # . # 
@@ -58,4 +58,4 @@
         . . . . . 
         . . . . . 
         . . . . .
-        `</field></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="*?2K$F[]//J4Aq4eQ:UX" x="-584" y="94"><statement name="HANDLER"><block type="keyboard service" id="3l`r+6-LG]PU{}sw.oB]"/></statement></block></xml>
+        `</field></block></next></block></next></block></next></block></statement></block></xml>
